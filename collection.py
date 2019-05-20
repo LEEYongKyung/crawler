@@ -3,6 +3,9 @@ from itertools import count
 from pandas import DataFrame
 from crawler import crawling
 
+def crawling_nene():
+    pass
+
 
 def crawling_pelicana():
     results = []
@@ -35,3 +38,8 @@ def crawling_pelicana():
 if __name__ == '__main__':
     # pelicana collection
     crawling_pelicana()
+
+    # nene collection(과제)
+    # crawling_nene()
+
+
