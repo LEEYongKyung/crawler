@@ -135,13 +135,13 @@ def crawling_goobne():
 
 if __name__ == '__main__':
     # pelicana collection
-    # crawling_pelicana()
+    crawling_pelicana()
 
     # nene collection(과제)
     crawling_nene()
 
     # kyochon collection
-    # crawling_kyochon()
+    crawling_kyochon()
 
     # goobne collection
-    # crawling_goobne()
+    crawling_goobne()
