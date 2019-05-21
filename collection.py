@@ -1,11 +1,9 @@
 import time
 from datetime import datetime
-
 from bs4 import BeautifulSoup
 from itertools import count
 from pandas import DataFrame
 from selenium import webdriver
-
 from crawler import crawling
 
 
@@ -23,6 +21,7 @@ def crawling_nene():
         shopname = tags_div[0].find('div', attrs={'class': 'shopName'}).text
         if first_shopname_prevpage == shopname:
             break
+
         first_shopname_prevpage = shopname
 
         for tag_div in tags_div:
